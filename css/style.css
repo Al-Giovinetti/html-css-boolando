@@ -60,7 +60,8 @@ main>div:first-child{
 
 div.container>.box-object{
     width: calc(100% / 3 - 1rem);
-    margin: 0.5rem;
+    margin: 1rem 0.5rem;
+
 }
 
 main .box-object .img-object img{
@@ -121,6 +122,10 @@ footer>div.container{
 
 .footer-right{
     margin: auto;
+}
+
+.footer-left li{
+    padding-right: 15px;
 }
 
 .box-object:hover img{
