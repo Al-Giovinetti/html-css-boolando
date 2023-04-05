@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+header *{
+    border: 1px solid black;
+}
+
+header .header-box{
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+header .header-box>img{
+    width: 40%;
+    vertical-align: middle;
+}
+
+header .header-box ul{
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-box li{
+    padding: 0 1rem
+}
