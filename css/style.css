@@ -33,3 +33,8 @@ header .header-box ul{
 header .header-box li{
     padding: 0 1rem
 }
+
+main section .container{
+    width: 70%;
+    margin: 0 auto;
+}
