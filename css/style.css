@@ -34,7 +34,27 @@ header .header-box li{
     padding: 0 1rem
 }
 
-main section .container{
+main section.container{
     width: 70%;
     margin: 0 auto;
+    background-color: red;
+    height: 500px;
 }
+
+section.container>.box-object{
+    width: calc(100% / 3);
+    height: 200px;
+    background-color: aqua;
+}
+
+section.container .img-object{
+    width: 100%;
+    height: 80%;
+    background-color: blue;
+}
+
+section.container .text-object{
+    height: 20%;
+    background-color: brown;
+}
+
