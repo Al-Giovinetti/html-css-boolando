@@ -17,6 +17,10 @@
     color: white;
 }
 
+.color-red{
+    color: red;
+}
+
 ul{
     list-style-type: none;
 }
@@ -93,6 +97,14 @@ main .box-object .img-object img{
     font-size: 2rem;
     width: 50px;
     text-align: center;
+}
+
+.text-object>span{
+    font-size: 0.8rem;
+}
+
+.text-object>span:last-child{
+    text-decoration: line-through;
 }
 
 
