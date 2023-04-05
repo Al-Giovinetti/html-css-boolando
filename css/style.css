@@ -27,6 +27,8 @@ ul{
 
 header{
     background-color: #FF6900;
+    position: fixed;
+    z-index: 1;
 }
 
 header .header-box{
@@ -52,6 +54,10 @@ header .header-box li{
 
 header div>ul:last-child{
     justify-content: flex-end;
+}
+
+main{
+    padding-top: 50px;
 }
 
 main>div:first-child{
