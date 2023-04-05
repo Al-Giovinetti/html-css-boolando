@@ -39,12 +39,14 @@ main section.container{
     margin: 0 auto;
     background-color: red;
     height: 500px;
+    flex-wrap: wrap;
 }
 
 section.container>.box-object{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 1rem);
     height: 200px;
     background-color: aqua;
+    margin: 0.5rem;
 }
 
 section.container .img-object{
