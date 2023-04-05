@@ -9,7 +9,7 @@
 }
 
 .container{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -48,28 +48,47 @@ header div>ul:last-child{
 }
 
 main>div:first-child{
-    background-color: red;
-    height: 500px;
     flex-wrap: wrap;
 }
 
 div.container>.box-object{
     width: calc(100% / 3 - 1rem);
-    height: 200px;
-    background-color: aqua;
     margin: 0.5rem;
 }
 
-div.container .img-object{
+main .box-object .img-object img{
     width: 100%;
-    height: 80%;
-    background-color: blue;
+    position: relative;
 }
 
-div.container .text-object{
-    height: 20%;
-    background-color: brown;
+.img-object{
+    position: relative;
 }
+
+.box-info{
+    position: absolute;
+    bottom: 15px;
+}
+
+.discount{
+    padding: 3px;
+    background-color: red;
+    margin-right: 2px;
+}
+
+.natural{
+    padding: 3px;
+    background-color: green;
+}
+
+.hearts{
+    position: absolute;
+    top: 5px;
+    right:0;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
 
 footer{
     background-color: black;
