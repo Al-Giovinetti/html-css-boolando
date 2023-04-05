@@ -8,13 +8,23 @@
     display: flex;
 }
 
-header *{
-    border: 1px solid black;
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.color-white{
+    color: white;
+}
+
+header{
+    background-color: #FF6900;
 }
 
 header .header-box{
     width: calc(100% / 3);
     text-align: center;
+    padding: 0.7rem 0
 }
 
 header .header-box>img{
@@ -26,17 +36,18 @@ header .header-box ul{
     list-style-type: none;
     width: 100%;
     height: 100%;
-    justify-content: center;
     align-items: center;
 }
 
 header .header-box li{
-    padding: 0 1rem
+    padding: 0 0.5rem
 }
 
-main div.container{
-    width: 70%;
-    margin: 0 auto;
+header div>ul:last-child{
+    justify-content: flex-end;
+}
+
+main>div:first-child{
     background-color: red;
     height: 500px;
     flex-wrap: wrap;
