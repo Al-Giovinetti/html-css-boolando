@@ -60,3 +60,12 @@ div.container .text-object{
     background-color: brown;
 }
 
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer>div.container{
+    justify-content: space-around;
+}
+
