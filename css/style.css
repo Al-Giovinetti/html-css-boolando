@@ -28,6 +28,7 @@ ul{
 header{
     background-color: #FF6900;
     position: fixed;
+    top: 0; left: 0; right: 0;
     z-index: 1;
 }
 
@@ -76,9 +77,7 @@ main .box-object .img-object img{
 }
 
 .img-object{
-    position: relative;
-    height: 406.7px;
-}
+    position: relative;}
 
 .box-info{
     position: absolute;
@@ -147,30 +146,30 @@ footer>div.container{
 
 #back1{
     background-image: url(../img/1b.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 #back2{
     background-image: url(../img/2b.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 #back3{
     background-image: url(../img/3b.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 #back4{
     background-image: url(../img/4b.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 #back5{
     background-image: url(../img/5b.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 #back6{
     background-image: url(../img/6b.webp);
-    background-size: contain;
+    background-size: cover;
 }
